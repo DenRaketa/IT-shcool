@@ -1,0 +1,67 @@
+@import '../variables/variables.scss'; 
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+
+}
+
+a {
+    text-decoration: none;
+    color: $color-black-200;
+    
+}
+
+ol,
+ul,
+li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+li {
+    font-weight: inherit;
+    font-size: inherit;
+    font-family: 'Neue Machina';
+}
+
+
+
+html,
+body {
+    line-height: 1.25;
+    font-weight: 500;
+    font-family: 'Inter', 'Montserrat', sans-serif;
+    
+
+}
+
+
+
+
+
+
+._container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0px 52px;
+}
+
+
+
+button:hover {
+    cursor: pointer;
+}

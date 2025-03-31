@@ -1,0 +1,66 @@
+@import '../variables/variables.scss';
+
+
+body {
+    
+    background-image: url(/img/brandboock/hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+   
+
+}
+
+.hero {
+    height: 60vh;
+    
+
+    color: $color-white-000;
+
+    .text_color_feture {
+
+        font-size: 52px;
+        height: 64px;
+        max-width: 892px;
+
+        background-color: $color-blue-100;
+        margin-top: 30vh;
+
+        h1 {
+            transform: translateY(-25%);
+            
+        }
+    
+    }
+
+    .circle_container{
+
+        height: 280px;
+        width: 280px;
+        border-radius: 50%;
+        border: 1px solid $color-white-000;
+        
+
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+
+        margin-top: 10vh;
+        padding: 0 60px;
+
+        h2 {
+            text-align: center;
+            font-size: 32px;
+            color: $color-white-000;
+
+        }
+
+
+
+    }
+
+
+}

@@ -1,0 +1,71 @@
+@import '../variables/variables.scss';
+
+.industries {
+
+    padding-top: 250px;
+    pa
+
+    .industries_section__title {
+
+        font-size: 60px;
+        margin-bottom: 100px;
+    }
+
+    .industries__container{
+
+        display: flex;
+        justify-content: space-between;
+        
+
+        .industries__container__block {
+
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+
+            max-width: 400px;
+
+
+        
+
+        .industries__container__block__icon {
+
+            width: 100px;
+            height: 100px;
+
+
+        }
+
+        .industries__container__block__title {
+
+            font-size: 32px;
+            color: $color-black-200;
+
+        }
+
+        .industries__container__block__description {
+            position: relative;
+            padding-top: 40px;
+            color: $color-gray-100;
+            font-size: 20px;
+
+            
+            border-top: 2px solid $color-gray-100;
+            transition: all 0.3 ease-out;
+        }
+
+    }
+
+    .industries__container__block:hover {
+
+        .industries__container__block__description {
+
+            border-top: 2px solid $color-blue-100;
+            transition: all 0.3s ease-in;
+            
+        }
+
+
+    }
+    }
+}

@@ -1,0 +1,90 @@
+@import '../variables/variables.scss';
+
+.feedback_form {
+    padding: 0 32px;
+    max-width: 1440px;
+    margin: 0 auto;
+ 
+
+    .feedback_form__wrapper {
+
+        padding: 120px 100px;
+        background: linear-gradient( 95deg, $color-blue-200, $color-blue-100);
+        border-radius: 70px;
+
+        .feedback_form_top_container {
+            display: flex;
+            justify-content: space-between;
+
+            .feedback_form__title {
+                max-width: 40%;
+                font-size: 64px;
+                color: $color-white-000;
+            }
+
+            .feedback_form__description_block {
+
+                display: flex;
+                flex-direction: column;
+                gap: 52px;
+                width: 40%;
+                
+
+                .feedback_form__description {
+                    
+                    font-family: Inter;
+                    font-weight: 300;
+                    font-size: 20px;
+                    color: $color-white-200;
+
+                    a {
+                        display: inline;
+                        color: $color-white-000;
+                        font-weight: 500;
+
+                    }
+                }
+
+                .feedback_form__description_block_btn {
+
+                    background-color: $color-blue-100-opacity-0;
+                    border: 1px solid $color-white-000;
+                    border-radius: 10px;
+                    color: $color-white-000;
+                    font-family: 'Neue Machina', Courier, monospace;
+                    font-size: 16px;
+                    
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 20px;
+                    width: fit-content;
+                    height: fit-content;
+                    padding: 16px 32px;
+
+                    img {
+
+                        width: 24px;
+                        height: 24px;
+                    }
+
+                }
+            }
+
+
+        }
+
+        .feedback_form_botton_container {
+                
+            background-color: #fff;
+
+            &form {
+                
+                display: flex;
+
+
+            }
+        }
+
+    }
+}

@@ -1,0 +1,43 @@
+@import '../variables/variables.scss';
+
+footer {
+    padding: 0 32px;
+    border-bottom: 1px solid red;
+    border-top: 1px solid red;
+
+    .social-media {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        max-width: 300px;   
+
+        &__logo {
+
+            height: 40px;
+            width: 40px;
+            margin-bottom:100px;
+
+        }
+
+        &__mail {
+            margin-bottom: 50px;
+            display: block;
+            text-decoration: underline;
+            font-size: 20px;
+            font-weight: 500;
+            color: $color-blue-100;
+        }
+
+        &__block {
+            gap: 12px;
+            display: flex;
+
+            a {
+                display: block;
+            }
+        }
+
+
+    }
+}
