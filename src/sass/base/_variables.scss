@@ -1,0 +1,100 @@
+
+$color-white-000: #fff;
+$color-white-100: #FFF8F2;
+$color-white-200: #d0cff8;
+
+$color-black-200:#2F353F;
+$color-gray-100:#93959b;
+
+$color-blue-200:#9695E7;
+$color-blue-100: #2E2BD0;
+$color-blue-300: #5e5be2;
+$color-blue-400: #7f7cec;
+$color-blue-100-opacity-0: rgba(46, 43, 208, 0);
+
+$color-purple-100:#CBCAF3;
+
+
+
+
+
+
+form {
+                
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+
+    input {
+
+        border-bottom: 1px solid $color-white-100;
+        height: 52px;
+    }
+
+    ::placeholder {
+        font-size: 24px;
+        color: $color-white-200;
+    }
+
+}
+
+input[type="file"] {
+
+    color: transparent;
+    background-color: transparent;
+    display: none;
+    color: $color-white-000;
+}
+
+
+
+@font-face {
+    font-family: 'Neue Machina';
+    src: url('./assets/fonts/Machina/NeueMachina-Regular.woff2') format('woff2'),
+         url('./assets/fonts/Machina/NeueMachina-Regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Neue Machina';
+    src: url('./assets/fonts/Machina/NeueMachina-Bold.woff2') format('woff2'),
+         url('./assets/fonts/Machina/NeueMachina-Bold.ttf') format('ttf');
+    font-weight: bold;
+    font-style: bold;
+  }
+
+  @font-face {
+    font-family: 'Neue Machina';
+    src: url('./assets/fonts/Machina/NeueMachina-ligt.woff2') format('woff2'),
+         url('./assets/fonts/Machina/NeueMachina-ligt.ttf') format('ttf');
+    font-weight: initial;
+    font-style: initial;
+  }
+
+  @font-face {
+    font-family: 'Neue Machina';
+    src: url('./assets/fonts/Machina/NeueMachina-Medium.woff2') format('woff2'),
+         url('./assets/fonts/Machina/NeueMachina-Medium.ttf') format('ttf');
+    font-weight: inherit;
+    font-style: inherit;
+  }
+
+
+
+
+  @media (max-width: 764px) {
+
+
+    ._container {
+
+        padding: 0 24px;
+    
+    }
+    
+    
+  }
+
+
+

@@ -1,0 +1,61 @@
+.button {
+    width: 133px;
+    height: 48px;
+    border-radius: 4px;
+    background: green;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+
+    &:hover {
+        background: grey;
+        color: green;
+    }
+}
+
+.contact_us__button {
+    font-family: Neue Machina, Courier, monospace;
+    width: 254px;
+    height: 60px;
+    background-color: $color-blue-100 ;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+
+    color: $color-white-000;
+    font-size: 16px;
+
+    img {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+
+.submit_bnt {
+    font-family: Neue Machina, Courier, monospace;
+    background-color: $color-white-000;
+    border-radius: 10px;
+    padding: 16px 24px; 
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 50%;
+
+
+    color: $color-blue-100;
+    font-size: 16px;
+
+    img {
+        width: 20px;
+        height: 20px;
+    }
+}
+
