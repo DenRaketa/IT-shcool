@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Run SASS",
+        "type": "node",
+        "request": "launch",
+        "program": "${workspaceFolder}/node_modules/sass/sass.js",
+        "args": ["styles/main.scss", "styles/main.scss", "--watch"],
+        "console": "integratedTerminal"
+      }
+    ]
+  }

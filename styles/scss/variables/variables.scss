@@ -1,0 +1,70 @@
+
+@font-face {
+    font-family: 'Neue Machina';
+    src: url('/styles/fonts/Machina/NeueMachina-Regular.ttf') format('ttf'),
+         url('/styles/fonts/Machina/NeueMachina-Regular.woff2') format('woff2');
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Neue Machina';
+    src: url('/styles/fonts/Machina/NeueMachina-Medium.ttf') format('ttf'),
+         url('/styles/fonts/Machina/NeueMachina-Medium.woff2') format('woff2');
+    font-style: normal;
+    font-weight: 500;
+}
+
+
+@font-face {
+    font-family: 'Neue Machina';
+    src: url('/styles/fonts/Machina/NeueMachina-Bold.ttf') format('ttf'),
+         url('/styles/fonts/Machina/NeueMachina-Bold.woff2') format('woff2');
+    font-style: normal;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Neue Machina';
+    src: url('/styles/fonts/Machina/NeueMachina-Ultrabold.ttf') format('ttf'),
+         url('/styles/fonts/Machina/NeueMachina-Ultrabold.woff2') format('woff2');
+    font-style: normal;
+    font-weight: 700;
+}
+
+$color-white-000: #fff;
+$color-white-100: #FFF8F2;
+$color-white-200: #d0cff8;
+
+$color-black-200:#2F353F;
+$color-gray-100:#93959b;
+
+$color-blue-200:#9695E7;
+$color-blue-100: #2E2BD0;
+$color-blue-300: #5e5be2;
+$color-blue-400: #7f7cec;
+$color-blue-100-opacity-0: rgba(46, 43, 208, 0);
+
+$color-purple-100:#CBCAF3;
+
+
+.contact_us__button {
+    font-family: Neue Machina, Courier, monospace;
+    width: 254px;
+    background-color: $color-blue-100 ;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-left: 80px;
+
+    color: $color-white-000;
+    font-size: 16px;
+
+    img {
+        width: 20px;
+        height: 20px;
+    }
+}
